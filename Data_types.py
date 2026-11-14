@@ -184,3 +184,20 @@ circle_area(5)
 #Output is 78.5 """
 
 
+""" print(10>1)
+#True
+print("cat" == "dog")
+#False
+print (1 != 2)
+#True """
+
+
+
+# the not operator is used to reverse the result of a conditional statement
+
+
+def hint_username(username):
+    if len(username) < 3:
+        print("Invalid username. Must be at least 3 characters long")
+
+hint_username("ab")
