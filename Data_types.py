@@ -196,8 +196,34 @@ print (1 != 2)
 # the not operator is used to reverse the result of a conditional statement
 
 
-def hint_username(username):
+""" def hint_username(username):
     if len(username) < 3:
         print("Invalid username. Must be at least 3 characters long")
 
-hint_username("ab")
+hint_username("ab") """
+
+
+""" def hint_username(username):
+    if len(username) < 3:
+        print("Invalid username. Must be at least 3 characters long")
+    else:
+        print("Valid username")
+#This code will not have an output.
+
+hint_username("manuel")  """
+
+
+""" def is_even(number):
+    if number % 2 == 0:
+        return True
+    return False
+#This code has no output """
+
+
+""" def hint_username(username):
+    if len(username) < 3:
+        print("Invalid username. Must be at least 3 characters long")
+    elif len(username) > 15:
+        print("Invalid username. Must be at most 15 characters long")
+    else:
+        print("Valid username") """
