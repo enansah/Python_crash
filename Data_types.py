@@ -124,9 +124,63 @@ number = len(name) * 9
 print("Hello " + name + ". Your lucky number is " + str(number)) """
 
 
-def lucky_number(name):
+""" def lucky_number(name):
     number = len(name) * 9
     print("Hello " + name + ". Your lucky number is " + str(number))
 
 lucky_number("Kay")
-lucky_number("Cameron")
+lucky_number("Cameron") """
+
+
+""" def calculate(d):
+    q = 3.14
+    z = q * (d ** 2)
+    print(z)
+
+calculate(5)
+#Output is 78.5 """
+
+""" def circle_area(radius):
+    pi = 3.14
+    area = pi * (radius ** 2)
+    print(area)
+
+circle_area(5)
+#Output is 78.5 """
+
+""" name = "Kay"
+number = len(name) * 9
+
+print("Hello " + name + ". Your lucky number is " + str(number))
+
+name = "Cameron"
+number = len(name) * 9
+
+print("Hello " + name + ". Your lucky number is " + str(number)) """
+
+
+""" def lucky_number(name):
+    number = len(name) * 9
+    print("Hello " + name + ". Your lucky number is " + str(number))
+
+lucky_number("Kay")
+lucky_number("Cameron") """
+
+
+""" def calculate(d):
+    q = 3.14
+    z = q * (d ** 2)
+    print(z)
+
+calculate(5)
+#Output is 78.5 """
+
+""" def circle_area(radius):
+    pi = 3.14
+    area = pi * (radius ** 2)
+    print(area)
+
+circle_area(5)
+#Output is 78.5 """
+
+
