@@ -83,11 +83,11 @@ print("Total sum: " + str(sum) + " - Average: " + str(sum/length)) """
 # while loops are used when the number of iterations is not known but breaks out when a condition is met,
 # for loops are used when the number of iterations is known.
 
-product = 1
+""" product = 1
 for n in range(1,10):
   product = product * n
 
-print(product)
+print(product) """
 
 
 """ def to_celsius(x):
@@ -96,4 +96,64 @@ print(product)
 for x in range(0,101,10):
   print(x, to_celsius(x)) """
 
+# Range function can take 1, 2 or 3 arguments. 
+# If it takes 1 argument, it will generate numbers from 0 to that number. 
+# If it takes 2 arguments, it will generate numbers from the first argument to the second argument. 
+# If it takes 3 arguments, it will generate numbers from the first argument to the second argument with a step size of the third argument.
 
+# Nested for loops 
+""" for left in range(7):
+  for right in range(left, 7):
+    print("[" + str(left) + "|" + str(right) + "]", end=" ")
+  print() """
+
+# Looping over a string 
+""" greeting = 'Hello'
+index = 0
+while index < len(greeting):
+    print(greeting[index:index+1])
+    index += 1 """
+
+""" numbers = [1, 2, 3, 4, 5]
+squared_numbers = [x ** 2 for x in numbers]
+print(squared_numbers) """
+
+
+#Slice and join Strings
+# Slice
+""" string1 = "Greetings, Earthlings"
+print(string1[0])   # Prints “G”
+print(string1[4:8]) # Prints “ting”
+print(string1[11:]) # Prints “Earthlings”
+print(string1[:5])  # Prints “Greet” """
+
+
+""" # Prints “Getns atlns”
+print(string1[0::2])
+
+# Prints “sgnilhtraE ,sgniteerG”
+print(string1[::-1]) """
+
+#join using + and the join method
+""" greetings = ["Hello", "world"]
+print(" ".join(greetings))  # Prints "Hello world"
+
+# You can also concatenate a combination of strings and variables like in the following example.
+name = "Alice"
+print("Hello, " + name + "!")  # Prints "Hello, Alice!" """
+
+""" def format_phone(phonenum):
+    area_code = "(" + phonenum[:3] + ")"
+    exchange = phonenum[3:6]
+    line = phonenum[-4:]
+    return area_code + " " + exchange + "-" + line
+
+format_phone('2025551212') """
+
+
+# Common errors in for loops 
+""" def greet_friends(friends):
+    for friend in friends:
+        print("Hi " + friend)
+
+greet_friends(['Taylor', 'Luisa', 'Jamaal', 'Eli']) """
