@@ -1,4 +1,5 @@
-# Recursion
+# Recursion reduces a complex problem to a simpler one 
+# Calling the same function inside itself 
 
 """ def factorial(n):
   print("Factorial called with " + str(n))
